@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="./jquery-1.11.3.min.js"></script>
+    <script src="./tabs.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css">
+    <link href="./tabs.css" rel="stylesheet" type="text/css">
+    <title>My Cool Website</title>
+  </head>
+
+  <body>
+    <ul class='tabs' data-content-tabs='#content-tabs'>
+      <li><a href='#malamute' class='active'>Malamute</a></li>
+      <li><a href='#bernese'>Bernese</a></li>
+      <li><a href='#collie'>Collie</a></li>
+    </ul>
+    <div id='content-tabs'>
+      <div class='tab-pane active' id='malamute'>
+        <p>
+          This arctic sled dog was bred for strength and endurance, and you don't want to get into a wrestling match with an Alaskan Malamute!
+          They are incredibly strong, and you will need to commit to obedience training early so that you don't end up struggling to control a full-grown dog.
+          They are independent and can be stubborn, so training can be a challenge. It's just a matter of whether or not they want to obey your commands,
+          not whether or not they understand. Remember that they were bred to pull, so teaching them to walk on a leash without pulling is a must!
+          The Alaskan Malamute has an incredibly high energy level and needs to exercise every day. They are athletic and playful and do best with a fenced-in yard.
+          You need to take care that they don't get away, as they have a predator streak, and they have been known to kill livestock and wildlife.
+          They can also be the neighborhood cat's worst nightmare. They are usually aggressive with other dogs, especially those of the same sex.
+          However, the Malamute loves people. He seems to love everyone equally and is not a "one-man dog" like many other breeds.
+          He is ridiculously friendly, and will probably kiss anyone who breaks into your house.
+        </p>
+      </div>
+      <div class='tab-pane' id='bernese'>
+        <p>
+          The Bernese Mountain Dog was bred to be the farmer's companion, and today, a Bernese Mountain Dog will want to be by your side at all times.
+          They make a great family dog, and usually single out one person in the household to be their best friend. They are loyal and devoted and will strive to please you.
+          They are excellent with kind and gentle children. They are extremely intelligent, and are known for manipulating their humans.
+          Because of their intelligence, they need to be mentally stimulated. They are gentle, easygoing, good-natured, affectionate, and docile.
+          They are incredibly devoted to their own family, and generally aloof towards strangers. A tendency to be shy runs in the breed, and early socialization is important.
+          Most Bernese Mountain Dogs do well with other animals, but some of them do chase smaller animals. They need daily exercise, but not as much as some more energetic breeds.
+          They don't enjoy playing fetch and certainly don't make good jogging partners.
+        </p>
+      </div>
+      <div class='tab-pane' id='collie'>
+        <p>
+          Collies make fantastic family pets because they love to be with people, and love to be part of the family.
+          They are great with children and often take a special interest in them.
+          The Collie's herding instinct will often cause him to follow his small owners around all day, quietly protecting them.
+          Every year Collies receive heroism awards for rescuing children from cars, snakes, and fire.
+          Collies are affectionate, intelligent, easygoing, fun-loving, loyal, devoted, and incredibly responsive to their humans.
+          Collies seem to have an intuitive awareness of a family's routines and activities and are sometimes accused of "reading their owner's mind."
+          They are known to recognize approaching footsteps and vehicles, and are often found waiting by the door when it is the regular
+          time for someone to get home from work or school.
+        </p>
+      </div>
+    </div>
+    <script>
+      $(function() {
+        $('.tabs').tabs();
+      })
+    </script>
+  </body>
+</html>
